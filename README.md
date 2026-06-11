@@ -5,7 +5,7 @@ Repository to create Python and AI related projects
 
 Overview
 This project implements an intraday trading strategy that combines:
-•	GARCH(1,1) Volatility Forecasting for market risk estimation.
+1. GARCH(1,1) Volatility Forecasting for market risk estimation.
 •	Twitter/X Sentiment Analysis for market sentiment extraction.
 •	Polygon.io Intraday Market Data for minute-level stock price information.
 •	Backtesting Engine to evaluate trading performance over historical data.
