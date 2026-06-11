@@ -4,12 +4,8 @@ Repository to create Python and AI related projects
 1. Garch_Sentiment_Trading_Stratergy.py
 
 Overview
-This project implements an intraday trading strategy that combines:
-1. GARCH(1,1) Volatility Forecasting for market risk estimation.
-•	Twitter/X Sentiment Analysis for market sentiment extraction.
-•	Polygon.io Intraday Market Data for minute-level stock price information.
-•	Backtesting Engine to evaluate trading performance over historical data.
-The strategy generates buy/sell signals by combining volatility forecasts and social media sentiment, then evaluates performance using cumulative returns and the Sharpe Ratio.
+This project implements an intraday trading strategy that combines GARCH(1,1) volatility forecasting with Twitter/X sentiment analysis to identify potential trading opportunities. Minute-level stock market data is retrieved from Polygon.io and used to estimate market volatility, while social media sentiment is extracted from tweets related to the selected stock. These two factors are combined to generate buy and sell signals, which are then evaluated through a backtesting framework. The performance of the strategy is assessed using cumulative returns and the Sharpe Ratio, providing insight into both profitability and risk-adjusted returns.
+
 ________________________________________
 Features
 •	Retrieve minute-level intraday stock data from Polygon.io.
